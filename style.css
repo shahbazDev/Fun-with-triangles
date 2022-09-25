@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Megrim&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+:root {
+       --primary-color: #65a30d;
+  }
+
+body {
+    font-family: "Work Sans", sans-serif;
+    text-align: center;
+  }
+
+h1{
+    text-align: left;
+  
+}
+h2{
+    padding: 1rem 1rem;
+}
+h3{
+    padding: 1rem 0;
+}
+
+header h1 {
+    font-family: "Megrim", cursive;
+    text-align: initial;
+  }
+
+
+.angle-input,#base,#height,#base1,#height1{
+    display:block;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 2rem;
+    font-size: 14px;
+    border: 2px solid var(--primary-color);
+    width: 100%;
+    max-width: 258px;
+    border-radius: 0.5rem;
+    padding: 0.6rem 1rem;
+    margin-top: 1rem;
+
+}
+
+label p{
+    font-size: larger;
+    color: var(--primary-color);
+    
+  }
+
+
+p{
+    text-align: center;
+}
+
+#is-triangle-btn,#submit-btn,#calc-btn,#calc-btn1{
+margin-top: 2rem;
+padding: 0.7rem 1rem;
+background: var(--primary-color);
+border: none;
+color: #fff;
+border-radius: 0.5rem;
+font-size: large;
+cursor: pointer;
+
+}
+
+
+
+nav{
+    text-align: right;
+
+}
+nav a{
+    color:white;
+    text-decoration: none;    
+    padding: 0rem 0.5rem;
+}
+header{
+    background-color: var(--primary-color);
+    color : white;
+    padding: 1rem;
+}
+#output,#output-area,#outputel {
+    font-size: x-large;
+    margin: 1rem;
+  }
+

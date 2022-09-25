@@ -1,0 +1,18 @@
+.quiz-main {
+    margin: 2rem auto;
+    width: 90%;
+    text-align: center;
+  }
+  
+ .question-container {
+    font-size: larger;
+    margin: 1rem auto;
+    padding: 1rem 0;
+    width: 85%;
+  }
+  
+   .question-container p {
+    margin: 1rem 0;
+  }
+
+  
