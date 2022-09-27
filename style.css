@@ -21,7 +21,7 @@ h1{
   
 }
 h2{
-    padding: 1rem 1rem;
+    padding: 0.5rem 1rem;
 }
 h3{
     padding: 1rem 0;
@@ -37,13 +37,13 @@ header h1 {
     display:block;
     width: 50%;
     margin: auto;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     font-size: 14px;
     border: 2px solid var(--primary-color);
     width: 100%;
     max-width: 258px;
     border-radius: 0.5rem;
-    padding: 0.6rem 1rem;
+    padding: 0.6rem 0.8rem;
     margin-top: 1rem;
 
 }
@@ -60,7 +60,7 @@ p{
 }
 
 #is-triangle-btn,#submit-btn,#calc-btn,#calc-btn1{
-margin-top: 2rem;
+/* margin : 0.5rem 0; */
 padding: 0.7rem 1rem;
 background: var(--primary-color);
 border: none;
@@ -92,3 +92,14 @@ header{
     margin: 1rem;
   }
 
+  footer{
+    bottom:0;
+    position: absolute;
+    text-align: center;
+    left:0;
+    right:0;
+    background-color: var(--primary-color);
+    padding: 1.5rem;
+    font-size: large;
+    
+}
